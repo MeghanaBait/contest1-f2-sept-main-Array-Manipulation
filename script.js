@@ -81,7 +81,7 @@ function averageAge() {
   const total = data.reduce((sum, person) => sum+person.age,0);
   const avg = total/data.length;
   console.log("Average age:", avg);
-  return average;
+  return avg;
 }
 
 // 6. Age Check
